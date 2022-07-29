@@ -89,14 +89,14 @@ end
 
 local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/rblx/main/ui-stuff/jeff_3/main.lua'))()
 
-local window = ui:NewWindow("<font color='rgb(230,26,26)'>Sammy</font> Hoops 3 | <font color='rgb(230,26,26)'>BETA PREVIEW</font>", 500, 400)
+local window = ui:NewWindow("<font color='rgb(230,26,26)'>Sammy</font> Hoops 3 | <font color='rgb(230,26,26)'>EVERYBODY DEAD</font>", 500, 400)
 
 local m_home = window:AddMenu("Home")
 local m_ball = window:AddMenu("Ball")
 local m_player = window:AddMenu("Player")
-local m_misc = window:AddMenu("Misc")
+local m_misc = window:AddMenu("nothing")
 local m_handles = window:AddMenu("Fast handles")
-local m_config = window:AddMenu("Config")
+local m_config = window:AddMenu("no bueno")
 
 do
     local s_1 = m_home:AddSection('Home')
@@ -105,7 +105,7 @@ do
         setclipboard('https://discord.gg/Gn9vWr8DJC')
     end)
     local s_2 = m_home:AddSection('Changelog')
-    s_2:AddLabel("<u>v3.0.0 BETA</u>")
+    s_2:AddLabel("<u>v3.0.0 ALPHA really</u>")
     s_2:AddLabel("- Remade everything")
     s_2:AddLabel("- Switched ui libraries (twice)")
     s_2:AddLabel("- Added a bunch of stuff")
