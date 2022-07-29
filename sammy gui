@@ -89,7 +89,7 @@ end
 
 local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/rblx/main/ui-stuff/jeff_3/main.lua'))()
 
-local window = ui:NewWindow("<font color='rgb(230,26,26)'>Sammy</font> GUI GUI | <font color='rgb(230,26,26)'>EVERYBODY DEAD</font>", 500, 400)
+local window = ui:NewWindow("<font color='rgb(230,26,26)'>Sammy GUI</font> | <font color='rgb(230,26,26)'>EVERYBODY DEAD</font>", 500, 400)
 
 local m_home = window:AddMenu("Home")
 local m_ball = window:AddMenu("Ball")
