@@ -105,10 +105,10 @@ do
         setclipboard('https://discord.gg/gWnVhcQGtV')
     end)
     local s_2 = m_home:AddSection('Changelog')
-    s_2:AddLabel("<u>v3.0.0 ALPHA really</u>")
+    s_2:AddLabel("<u>v3.0.0.1 ALPHA really</u>")
     s_2:AddLabel("- Remade everything")
     s_2:AddLabel("- Switched ui libraries (twice)")
-    s_2:AddLabel("- Added a bunch of stuff")
+    s_2:AddLabel("- Added better auto block script")
 end
 
 
