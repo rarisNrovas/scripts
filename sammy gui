@@ -100,9 +100,9 @@ local m_config = window:AddMenu("no bueno")
 
 do
     local s_1 = m_home:AddSection('Home')
-    s_1:AddLabel("SAMMY GUI stolen from qwerty_yellows")
-    s_1:AddButton("Join the discord"):SetTooltip("Click to copy discord invite"):ConnectFlag("Clicked", function() 
-        setclipboard('https://discord.gg/Gn9vWr8DJC')
+    s_1:AddLabel("SAMMY GUI stolen from qwerty_yellows + added my own scripts lol")
+    s_1:AddButton("Join my own discord if you ever get a hold of this"):SetTooltip("Click to copy discord invite"):ConnectFlag("Clicked", function() 
+        setclipboard('https://discord.gg/gWnVhcQGtV')
     end)
     local s_2 = m_home:AddSection('Changelog')
     s_2:AddLabel("<u>v3.0.0 ALPHA really</u>")
